@@ -6,7 +6,7 @@
 .whatido {
   position: relative;
   padding: 100px 0 120px;
-  background: #0a0a0a;
+  background: var(--bg-primary);
   overflow: hidden;
 }
 
@@ -29,7 +29,7 @@
   width: 4px;
   height: 32px;
   border-radius: 2px;
-  background: #10b981;
+  background: var(--accent);
   flex-shrink: 0;
 }
 
@@ -37,7 +37,7 @@
   font-family: 'Outfit', sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--text-primary);
   letter-spacing: -0.02em;
   margin: 0;
   text-transform: lowercase;
@@ -56,9 +56,9 @@
   align-items: center;
   gap: 18px;
   padding: 24px 24px;
-  background: #1a1a1a;
+  background: var(--bg-card);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
   cursor: default;
   transition:
     transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
@@ -139,7 +139,7 @@
   font-family: 'Outfit', sans-serif;
   font-size: 1.05rem;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--text-primary);
   margin: 0 0 4px;
   white-space: nowrap;
   overflow: hidden;
@@ -149,7 +149,7 @@
 .whatido__card-desc {
   font-family: 'Inter', sans-serif;
   font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.45);
+  color: var(--text-secondary);
   margin: 0;
   line-height: 1.5;
 }

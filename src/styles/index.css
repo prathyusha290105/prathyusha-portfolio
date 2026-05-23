@@ -4,7 +4,7 @@
    DESIGN TOKENS
    ======================================== */
 :root {
-  /* Colors */
+  /* Colors - Dark Theme (Default) */
   --bg-primary: #0a0a0a;
   --bg-secondary: #111111;
   --bg-card: #1a1a1a;
@@ -19,6 +19,7 @@
   --text-muted: #666666;
   --border: #2a2a2a;
   --border-light: #333333;
+  --ambient-opacity: 0.06;
 
   /* Typography */
   --font-heading: 'Outfit', sans-serif;
@@ -42,8 +43,55 @@
   --radius-full: 9999px;
 
   /* Shadows */
-  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.4);
   --shadow-glow: 0 0 30px var(--accent-glow);
+}
+
+/* Colors - Light Theme Overrides */
+html[data-theme="light"] {
+  --bg-primary: #f5f2eb; /* Warm Sand Beige */
+  --bg-secondary: #faf8f5; /* Light Ivory Cream */
+  --bg-card: #faf8f5; /* Light Ivory Cream */
+  --bg-card-hover: #fcfbfa; /* Soft White Cream */
+  --accent: #059669; /* Forest green for high-contrast readability */
+  --accent-light: #10b981;
+  --accent-dark: #047857;
+  --accent-glow: rgba(5, 150, 105, 0.12);
+  --accent-glow-strong: rgba(5, 150, 105, 0.25);
+  --text-primary: #2d2621; /* Soft espresso/charcoal */
+  --text-secondary: #5e544e; /* Warm slate/grey */
+  --text-muted: #948b83; /* Warm tan */
+  --border: #e3dcd5; /* Warm grey-beige border */
+  --border-light: #ece7e0; /* Warm light-grey border */
+  --ambient-opacity: 0.12;
+  --shadow-card: 0 10px 30px rgba(45, 38, 33, 0.05), 0 1px 3px rgba(45, 38, 33, 0.03);
+  --shadow-glow: 0 0 25px rgba(5, 150, 105, 0.12);
+}
+
+/* Theme Switcher Transitions */
+body,
+.navbar,
+.navbar__pill,
+.section,
+.glass-card,
+.pill,
+.projects__card,
+.whatido__card,
+.exp-card,
+.education-card,
+.certach-cert-card,
+.certach-ach-card,
+.contact-social-card,
+.contact-input,
+.contact-submit,
+.footer,
+h1, h2, h3, h4, h5, h6,
+p, span, a, input, textarea {
+  transition: 
+    background-color 0.3s ease, 
+    border-color 0.3s ease, 
+    color 0.3s ease, 
+    box-shadow 0.3s ease;
 }
 
 /* ========================================

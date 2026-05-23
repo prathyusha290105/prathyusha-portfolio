@@ -25,10 +25,10 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(10, 10, 10, var(--nav-bg-opacity));
+  background: color-mix(in srgb, var(--bg-primary) calc(var(--nav-bg-opacity) * 100%), transparent);
   backdrop-filter: blur(var(--nav-blur));
   -webkit-backdrop-filter: blur(var(--nav-blur));
-  border-bottom: 1px solid rgba(255, 255, 255, var(--nav-border-opacity));
+  border-bottom: 1px solid color-mix(in srgb, var(--text-primary) calc(var(--nav-border-opacity) * 100%), transparent);
   mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
   -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
   transition: background 0.35s ease, backdrop-filter 0.35s ease;
@@ -37,8 +37,8 @@
 
 /* Stronger background once scrolled */
 .navbar--scrolled::before {
-  background: rgba(10, 10, 10, 0.88);
-  border-bottom-color: rgba(255, 255, 255, 0.08);
+  background: color-mix(in srgb, var(--bg-primary) 88%, transparent);
+  border-bottom-color: color-mix(in srgb, var(--text-primary) 8%, transparent);
 }
 
 /* ---- Inner flex container ---- */
@@ -59,9 +59,9 @@
   gap: 8px;
   padding: 10px 22px;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(255, 255, 255, 0.04);
-  color: #ffffff;
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--text-primary) 4%, transparent);
+  color: var(--text-primary);
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -87,7 +87,7 @@
   border-radius: inherit;
   background: radial-gradient(
     ellipse at 50% 0%,
-    rgba(16, 185, 129, 0.08) 0%,
+    color-mix(in srgb, var(--accent) 8%, transparent) 0%,
     transparent 70%
   );
   opacity: 0;
@@ -96,12 +96,12 @@
 }
 
 .navbar__pill:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(16, 185, 129, 0.3);
+  background: color-mix(in srgb, var(--text-primary) 8%, transparent);
+  border-color: color-mix(in srgb, var(--accent) 30%, transparent);
   transform: translateY(-2px) scale(1.03);
   box-shadow:
-    0 4px 20px rgba(16, 185, 129, 0.1),
-    0 0 0 1px rgba(16, 185, 129, 0.08);
+    0 4px 20px color-mix(in srgb, var(--accent) 10%, transparent),
+    0 0 0 1px color-mix(in srgb, var(--accent) 8%, transparent);
 }
 
 .navbar__pill:hover::before {
@@ -130,21 +130,21 @@
 }
 
 .nav-icon--circle svg {
-  filter: drop-shadow(0 0 4px rgba(16, 185, 129, 0.5));
+  filter: drop-shadow(0 0 4px color-mix(in srgb, var(--accent) 50%, transparent));
   transition: filter 0.3s ease;
 }
 
 .navbar__pill:hover .nav-icon--circle svg {
-  filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.75));
+  filter: drop-shadow(0 0 8px color-mix(in srgb, var(--accent) 75%, transparent));
 }
 
 .nav-icon--briefcase {
-  color: rgba(255, 255, 255, 0.65);
+  color: var(--text-secondary);
   transition: color 0.3s ease;
 }
 
 .navbar__pill:hover .nav-icon--briefcase {
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--text-primary);
 }
 
 .nav-icon--check svg {

@@ -3,6 +3,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Navbar from './components/Navbar'
 import MouseFollower from './components/MouseFollower'
+import ThemeToggle from './components/ThemeToggle'
 import Hero from './components/Hero'
 import About from './components/About'
 import WhatIDo from './components/WhatIDo'
@@ -31,6 +32,7 @@ function App() {
   return (
     <div className="app">
       <MouseFollower />
+      <ThemeToggle />
       {/* Ambient background effects */}
       <div className="ambient-bg">
         <div className="ambient-orb ambient-orb-1"></div>

@@ -41,7 +41,7 @@ const Footer = () => {
           <span className="footer-name">Shyamal Joshi</span>
         </p>
 
-        <p className="footer-line footer-year">&copy; 2025</p>
+        {/* <p className="footer-line footer-year">&copy; 2026</p> */}
 
         <p className="footer-line footer-tech">
           Made with <span className="footer-heart">♥</span> using React &amp; GSAP

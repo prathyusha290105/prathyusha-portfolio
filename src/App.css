@@ -25,14 +25,14 @@
   position: absolute;
   border-radius: 50%;
   filter: blur(120px);
-  opacity: 0.06;
+  opacity: var(--ambient-opacity, 0.06);
   animation: ambient-float 20s ease-in-out infinite;
 }
 
 .ambient-orb-1 {
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, #10b981, transparent 70%);
+  background: radial-gradient(circle, var(--accent), transparent 70%);
   top: -200px;
   right: -200px;
   animation-delay: 0s;
