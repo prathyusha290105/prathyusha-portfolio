@@ -9,14 +9,22 @@ gsap.registerPlugin(ScrollTrigger);
 /* ── Two separate skill rows ── */
 const DEVOPS_FULLSTACK = [
   'React', 'Node.js', 'Express.js', 'JavaScript', 'HTML/CSS',
-  'Docker', 'Kubernetes', 'AWS', 'Azure', 'Jenkins',
-  'Git', 'Prometheus', 'Grafana', 'Linux', 'MySQL',
+  'Docker', 'Kubernetes', 'Jenkins',
+  'Git','Linux', 'MySQL',
 ];
 
 const ML_DL = [
-  'Python', 'TensorFlow', 'PyTorch', 'Scikit-Learn', 'Pandas',
-  'NumPy', 'NLP', 'Deep Learning', 'Bayesian Networks', 'OpenCV',
-  'Keras', 'NLTK', 'Computer Vision', 'Reinforcement Learning',
+  'Python',
+  'GitHub',
+  'CI/CD',
+  'GitHub Actions',
+  'DSA',
+  'DBMS',
+  'OOP',
+  'SDLC',
+  'Problem Solving',
+  'MySQL',
+  'MongoDB',
 ];
 
 const About = () => {

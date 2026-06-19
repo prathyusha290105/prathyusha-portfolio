@@ -115,7 +115,7 @@ const Education = () => {
           Academic <span className="education-accent">Journey</span>
         </h2>
         <p className="education-subtitle">
-          A strong foundation in computer science, from school to IIT Jodhpur.
+          A strong academic foundation in Computer Science, built through continuous learning, problem solving, and hands-on project development.
         </p>
       </div>
 

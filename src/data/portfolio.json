@@ -1,88 +1,96 @@
 {
   "personal": {
-    "name": "Shyamal",
-    "lastName": "Joshi",
-    "title": "Software Engineer & Cloud Architect",
-    "subtitle": "CSE @ IIT Jodhpur",
-    "tagline": "Building scalable cloud infrastructure, intelligent ML solutions, and full-stack applications that drive real-world impact...",
-    "bio": "Hi, I'm Shyamal, a software engineer and cloud architect passionate about building scalable systems, automating infrastructure, and solving complex problems with machine learning. Currently pursuing M.Tech at IIT Jodhpur.",
-    "description": "From orchestrating 40+ microservices on Kubernetes to crafting ML models that predict with precision — I blend DevOps, cloud architecture, and AI to build solutions that matter. My work spans AWS, Azure, Docker, React, and beyond.",
-    "email": "joshishyamal101@gmail.com",
-    "phone": "+91-8780502810",
-    "photo": "/images/shyamal-photo.jpg",
-    "resumeLink": "/Shyamal_Joshi_Resume.pdf"
+    "name": "Prathyusha",
+    "lastName": "Morthala",
+    "title": "Software Developer & Full Stack Enthusiast",
+    "subtitle": "B.Tech CSE | Bhoj Reddy Engineering College",
+    "tagline": "Building impactful web applications, solving real-world problems through technology, and continuously improving through coding, projects, and innovation.",
+    "bio": "Hi, I'm Prathyusha, Computer Science Engineer passionate about software development, full-stack web applications,DevOps tools and problem solving. I enjoy transforming ideas into practical solutions and continuously learning new technologies.",
+    "description": "With hands-on experience in web development, databases, and problem solving, I have built projects ranging from emergency assistance platforms to AI-powered applications. My interests include Full Stack Development, Software Engineering, and Python Development, and creating technology that delivers meaningful impact.",
+    "email": "prathyusha290105@gmail.com",
+    "phone": "+91-9701027888",
+    "photo": "/images/prathyusha-photo.png",
+    "resumeLink": "/resume/Prathyusha_Morthala_resume.pdf"
   },
   "social": [
     {
       "name": "GitHub",
-      "url": "http://github.com/shyamaljoshi1/",
+      "url": "https://github.com/Prathyusha-290105",
       "icon": "github"
     },
     {
       "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/shyamaljoshi/",
+      "url": "https://www.linkedin.com/in/prathyusha-morthala",
       "icon": "linkedin"
     },
     {
       "name": "LeetCode",
-      "url": "https://leetcode.com/u/shyamaljoshi1/",
+      "url": "https://leetcode.com/u/prathyushamorthala/",
       "icon": "leetcode"
     },
     {
-      "name": "Instagram",
-      "url": "https://www.instagram.com/thefutureguyy.ai/",
-      "icon": "instagram",
-      "followers": "10.8K"
-    },
-    {
       "name": "Email",
-      "url": "mailto:joshishyamal101@gmail.com",
+      "url": "mailto:prathyusha290105@gmail.com",
       "icon": "email"
-    }
+   }
   ],
   "techStack": [
-    "React", "Node.js", "Express.js", "JavaScript", "Python", "C++",
-    "Docker", "Kubernetes", "AWS", "Azure", "Jenkins", "Git",
-    "Prometheus", "Grafana", "TensorFlow", "MySQL", "Linux", "HTML/CSS"
-  ],
+  "Python",
+  "C",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Node.js",
+  "MySQL",
+  "MongoDB",
+  "Git",
+  "GitHub",
+  "CI/CD",
+  "GitHub Actions",
+  "DSA",
+  "DBMS",
+  "OOP",
+  "SDLC"
+],
   "whatIDo": [
-    {
-      "title": "Cloud & DevOps",
-      "description": "AWS, Azure, Kubernetes, Docker — Architecting scalable cloud infrastructure for high availability.",
-      "icon": "cloud",
-      "color": "#10b981"
-    },
-    {
-      "title": "CI/CD Pipelines",
-      "description": "Jenkins, automated deployments, rollbacks — Streamlining code release with advanced pipelines.",
-      "icon": "pipeline",
-      "color": "#3b82f6"
-    },
-    {
-      "title": "Machine Learning",
-      "description": "Bayesian Networks, Deep Learning, NLP — Building intelligent models for real-world predictions.",
-      "icon": "brain",
-      "color": "#8b5cf6"
-    },
-    {
-      "title": "Full-Stack Web Dev",
-      "description": "React, Node.js, Express — Crafting responsive, performant web applications end-to-end.",
-      "icon": "code",
-      "color": "#f59e0b"
-    },
-    {
-      "title": "Monitoring & Observability",
-      "description": "Prometheus, Grafana, Azure Monitor — Reducing incident detection time by 60%.",
-      "icon": "monitor",
-      "color": "#ef4444"
-    },
-    {
-      "title": "Containerization",
-      "description": "Docker, Kubernetes, EKS — Orchestrating 40+ microservices with automated deployments.",
-      "icon": "container",
-      "color": "#06b6d4"
-    }
-  ],
+  {
+    "title": "Full Stack Development",
+    "description": "Building responsive and user-friendly web applications using React, Node.js, Express.js, and databases.",
+    "icon": "code",
+    "color": "#10b981"
+  },
+  {
+    "title": "Problem Solving",
+    "description": "Solved 150+ coding problems and continuously improving DSA skills through LeetCode practice.",
+    "icon": "brain",
+    "color": "#3b82f6"
+  },
+  {
+    "title": "Backend Development",
+    "description": "Developing REST APIs, database integrations, authentication systems, and server-side applications.",
+    "icon": "server",
+    "color": "#8b5cf6"
+  },
+  {
+    "title": "Database Management",
+    "description": "Working with MySQL and MongoDB to design efficient and scalable data storage solutions.",
+    "icon": "database",
+    "color": "#f59e0b"
+  },
+  {
+    "title": "DevOps Fundamentals",
+    "description": "Exploring Git, GitHub, Linux, CI/CD, and GitHub Actions to streamline development workflows.",
+    "icon": "pipeline",
+    "color": "#ef4444"
+  },
+  {
+    "title": "Continuous Learning",
+    "description": "Actively learning new technologies, building projects, and participating in hackathons and internships.",
+    "icon": "rocket",
+    "color": "#06b6d4"
+  }
+],
   "experience": [
     {
       "role": "Software Engineer (DevOps)",
@@ -111,92 +119,136 @@
     }
   ],
   "projects": [
-    {
-      "title": "Decision Making in Diabetics Using Bayesian Network",
-      "type": "Course Project — IIT Jodhpur",
-      "description": "Developed a diabetes prediction model using Bayesian Networks (pgmpy) with Hill Climbing + BIC scoring, integrating medical constraints for causal validity. Compared with Logistic Regression, SVM, and Random Forest; deployed via Streamlit.",
-      "tech": ["Python", "pgmpy", "scikit-learn", "Streamlit", "Pandas", "NumPy"],
-      "github": "http://github.com/shyamaljoshi1/",
-      "color": "#8b5cf6"
-    },
-    {
-      "title": "Smart Product Pricing",
-      "type": "Amazon ML Challenge 2025",
-      "description": "Built an ensemble model by training parallel MLPs on CoCa and SigLIP multimodal embeddings, achieving sMAPE of 40.06%. Developed fast and efficient solution with inference time 0.12 sec per sample.",
-      "tech": ["NLP", "Multimodal", "SigLIP", "CoCa", "Ensemble Learning", "Python"],
-      "github": "http://github.com/shyamaljoshi1/",
-      "color": "#f59e0b"
-    },
-    {
-      "title": "Charusat LOR System",
-      "type": "University Project",
-      "description": "Coordinated a team of 5 developers to digitize the Letter of Recommendation process for CSPIT Department, achieving 100% streamlining of administrative workflows.",
-      "tech": ["React.js", "TailwindCSS", "SCSS", "Node.js"],
-      "github": "http://github.com/shyamaljoshi1/",
-      "color": "#10b981"
-    }
-  ],
-  "education": [
-    {
-      "degree": "M.Tech (CSE)",
-      "institution": "Indian Institute of Technology, Jodhpur",
-      "year": "2025 — Present",
-      "score": "CGPA: 8.30"
-    },
-    {
-      "degree": "B.Tech (CE)",
-      "institution": "Charusat University",
-      "year": "2020 — 2024",
-      "score": "CGPA: 9.46"
-    },
-    {
-      "degree": "Class 12",
-      "institution": "Sigma School, Porbandar",
-      "year": "2020",
-      "score": "83.69%"
-    },
-    {
-      "degree": "Class 10",
-      "institution": "Sigma School, Porbandar",
-      "year": "2018",
-      "score": "90.67%"
-    }
-  ],
-  "certifications": [
-    {
-      "name": "AWS Certified Cloud Practitioner",
-      "issuer": "Amazon Web Services",
-      "year": "2023",
-      "color": "#f59e0b"
-    },
-    {
-      "name": "Microsoft Azure Fundamentals",
-      "issuer": "Microsoft",
-      "year": "2023",
-      "color": "#3b82f6"
-    }
-  ],
-  "achievements": [
-    {
-      "title": "Led Tech Sessions",
-      "description": "Delivered engaging sessions for 60+ students on Open Source, Git-GitHub, and C++ STL"
-    },
-    {
-      "title": "CodePie 3.0 Organizer",
-      "description": "Organized university-level coding competition with 550+ participants, supervised 30 core team members and 120 volunteers"
-    },
-    {
-      "title": "Instagram Creator",
-      "description": "Building a community of 10.8K+ followers on tech and AI content"
-    }
-  ],
-  "skills": {
-    "core": ["DBMS", "OOP", "Computer Networking", "OS", "DSA", "Machine Learning", "Deep Learning"],
-    "languages": ["C++", "Python", "JavaScript", "SQL"],
-    "tools": ["Git", "Docker", "Linux", "VS Code", "Kubernetes", "Jenkins"],
-    "monitoring": ["Prometheus", "Grafana", "Azure Monitor", "Application Insights"],
-    "web": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js"],
-    "cloud": ["AWS", "Azure", "EKS", "Azure Key Vault"],
-    "ml": ["TensorFlow", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "NLP", "LLM"]
+  {
+    "title": "HELP HIVE",
+    "type": "Emergency Response Web Application",
+    "description": "Developed a responsive emergency assistance platform that helps users quickly access nearby hospitals, police stations, NGOs, and SHE Teams based on their current location. Designed to improve accessibility to critical services during emergencies.Implemented location-based emergency contact retrieval, reducing emergency contact search time by 80% compared to manual searching.",
+    "tech": ["HTML", "CSS", "JavaScript", "Geolocation API"],
+    "color": "#10b981"
+  },
+  {
+    "title": "Pet Adoption Center",
+    "type": "Full Stack Web Application",
+    "description": "Built a pet adoption platform that enables users to browse, adopt, and manage pets through a secure and user-friendly interface. Implemented pet management and adoption workflows capable of handling 100+ pet listings with real-time updates.",
+    "tech": ["Node.js", "Express.js", "MongoDB", "HTML", "CSS", "JavaScript"],
+    "color": "#3b82f6"
+  },
+  {
+    "title": "Food Impact Analyzer",
+    "type": "AI-Powered Sustainability Application",
+    "description": "Developed an intelligent application that analyzes food choices and provides sustainability insights using AI-driven recommendations. Integrated Flask backend, SQLite database, and machine learning concepts to evaluate environmental impact improving data retrieval efficiency by 30% through optimized queries.",
+    "tech": ["Python", "Flask", "SQLite", "HTML", "CSS", "Machine Learning"],
+    "color": "#f59e0b"
   }
+],
+  "education": [
+  {
+    "degree": "B.Tech in Computer Science Engineering",
+    "institution": "Bhoj Reddy Engineering College for Women",
+    "year": "2023 – 2027",
+    "score": "CGPA: 7.9"
+  },
+  {
+    "degree": "Intermediate (MPC)",
+    "institution": "Narayana Junior College",
+    "year": "2021 – 2023",
+    "score": "98%"
+  },
+  {
+    "degree": "SSC",
+    "institution": "Ekashila Public School",
+    "year": "2021",
+    "score": "10GPA"
+  }
+],
+  "certifications": [
+  {
+  "name": "Data Insights Using MS Excel",
+  "issuer": "IBM SkillsBuild & CSRBOX",
+  "year": "2023",
+  "icon": "excel",
+  "color": "#00c896",
+  "skills": ["Excel", "Data Analysis", "Reporting"]
+},
+ {
+  "name": "AI Tools & ChatGPT Workshop",
+  "issuer": "Be10X",
+  "year": "2024",
+  "icon": "ai",
+  "color": "#3b82f6",
+  "skills": ["AI", "ChatGPT", "Prompt Engineering"]
+},
+  {
+  "name": "100 Days of Code",
+  "issuer": "Udemy",
+  "year": "2026",
+  "icon": "python",
+  "color": "#f59e0b",
+  "skills": ["Python", "OOP", "Projects"]
+},
+  {
+  "name": "Data Structures & Algorithms",
+  "issuer": "Udemy",
+  "year": "2026",
+  "icon": "dsa",
+  "color": "#ef4444",
+  "skills": ["DSA", "Algorithms", "Problem Solving"]
+}
+],
+  "achievements": [
+  {
+    "title": "100+ LeetCode Problems Solved",
+    "description": "Strengthened problem-solving skills through consistent practice of Data Structures and Algorithms."
+  },
+  {
+    "title": "HackWithInfy Participant",
+    "description": "Participated in Infosys HackWithInfy coding competition and worked on competitive programming challenges."
+  },
+  {
+    "title": "Tata Powerlabs 2.0 Participant",
+    "description": "Participated in Tata Powerlabs 2.0 innovation and technology program."
+  },
+  {
+    "title": "Codepathi – Sudhee 2026",
+    "description": "Participated in university-level technical and coding events."
+  }
+],
+  "skills": {
+  "core": [
+    "DSA",
+    "OOP",
+    "DBMS",
+    "Operating Systems",
+    "Computer Networks"
+  ],
+  "languages": [
+    "Python",
+    "C",
+    "JavaScript",
+    "SQL"
+  ],
+  "tools": [
+    "Git",
+    "GitHub",
+    "Linux",
+    "VS Code"
+  ],
+  "web": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Node.js",
+    "Express.js"
+  ],
+  "database": [
+    "MySQL",
+    "MongoDB"
+  ],
+  "devops": [
+    "GitHub Actions",
+    "CI/CD",
+    "Linux"
+  ]
+}
 }

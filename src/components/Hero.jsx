@@ -258,7 +258,7 @@ const Hero = () => {
                 </defs>
                 <text>
                   <textPath href="#heroCirclePath" startOffset="0%" textLength="940" lengthAdjust="spacing">
-                    TECH CONTENT CREATOR ✦ IITIAN ✦ SOFTWARE ENGINEER ✦ 
+                    OPEN TO WORK ✦ CONTINUOUS LEARNER ✦ SOFTWARE ENGINEER ✦ 
                   </textPath>
                 </text>
               </svg>
@@ -282,12 +282,12 @@ const Hero = () => {
             <p className="hero-bio">{personal.description}</p>
             <div className="hero-bio-stats">
               <div className="hero-stat">
-                <span className="hero-stat-number">40+</span>
-                <span className="hero-stat-label">Microservices</span>
+                <span className="hero-stat-number">150+</span>
+                <span className="hero-stat-label">Leet Code Problems Solved</span>
               </div>
               <div className="hero-stat">
-                <span className="hero-stat-number">10.8K</span>
-                <span className="hero-stat-label">Followers</span>
+                <span className="hero-stat-number">3+</span>
+                <span className="hero-stat-label">Major Projects Built</span>
               </div>
             </div>
           </div>

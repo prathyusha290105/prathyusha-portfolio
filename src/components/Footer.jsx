@@ -50,16 +50,16 @@ const Footer = () => {
                 fontSize="15" 
                 fill="var(--accent)"
               >
-                SJ
+                PM
               </text>
             </svg>
           </div>
         </div>
         <div className="footer-bottom-item footer-bottom-item--name">
-          SHYAMAL JOSHI
+          PRATHYUSHA MORTHALA
         </div>
         <div className="footer-bottom-item footer-bottom-item--rights">
-          &copy; 2026 ALL RIGHTS RESERVED
+          &copy; 2026 Prathyusha Morthala
         </div>
       </div>
     </footer>

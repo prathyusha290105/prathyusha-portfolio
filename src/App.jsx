@@ -7,7 +7,7 @@ import ThemeToggle from './components/ThemeToggle'
 import Hero from './components/Hero'
 import About from './components/About'
 import WhatIDo from './components/WhatIDo'
-import Experience from './components/Experience'
+//import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Education from './components/Education'
 import Certifications from './components/Certifications'
@@ -63,9 +63,11 @@ function App() {
           <WhatIDo />
         </section>
 
-        <section id="experience">
-          <Experience />
-        </section>
+        {/* 
+<section id="experience">
+  <Experience />
+</section>
+*/}
 
         <section id="projects">
           <Projects />
